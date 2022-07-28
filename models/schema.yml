@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stations
+    columns:
+      - name: call_sign
+        tests:
+          - unique
+          - not_null
